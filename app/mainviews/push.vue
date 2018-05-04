@@ -112,7 +112,7 @@
 <script>
     import myAjax from '../../src/ajax.js'
     const urls = {
-        appsUrl: 'http://gp.com/push/api/getApps',
+        appsUrl: 'http://gp.com/manage/api/getApps',
         groupsUrl: 'http://gp.com/push/api/getGroups',
         pushUrl: 'http://gp.com/push/api/push',
     }
@@ -133,6 +133,7 @@
                 sendTarget: 0,//0:all, 1:group, 2:users
                 appid: 0,
                 apps: [],
+                target: 0,
                 group: 0,
                 groups: [],
                 users: '',
@@ -181,7 +182,7 @@
                     platform: this.platform,
                     title: this.title,
                     content: this.content,
-                    group: {
+                    target: {
                         type: this.sendTarget,
                         ext: this.sendTarget == 1 ? this.group : this.users
                     },
