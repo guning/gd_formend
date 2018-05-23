@@ -112,9 +112,9 @@
 <script>
     import myAjax from '../../src/ajax.js'
     const urls = {
-        appsUrl: 'http://gp.com/manage/api/getApps',
-        groupsUrl: 'http://gp.com/push/api/getGroups',
-        pushUrl: 'http://gp.com/push/api/push',
+        appsUrl: '/manage/api/getApps',
+        groupsUrl: '/push/api/getGroups',
+        pushUrl: '/push/api/push',
     }
     export default {
         name: 'Push',

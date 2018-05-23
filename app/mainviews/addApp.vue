@@ -35,7 +35,7 @@
     import myAjax from '../../src/ajax.js'
 
     const urls = {
-        addApp: 'http://gp.com/app/addApp',
+        addApp: '/app/addApp',
     }
     export default {
         name: 'AddApp',

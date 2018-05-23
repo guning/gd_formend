@@ -28,8 +28,8 @@
     import myAjax from '../../src/ajax.js'
 
     const urls = {
-        downloadApp: 'http://gp.com/app/downloadApp',
-        appList: 'http://gp.com/app/getApp'
+        downloadApp: '/app/downloadApp',
+        appList: '/app/getApp'
     }
     export default {
         name: 'myApp',

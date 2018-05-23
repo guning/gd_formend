@@ -52,10 +52,10 @@
 <script>
     import myAjax from '../../src/ajax.js'
     const urls = {
-        appsList: 'http://gp.com/manage/api/getApps',
-        groupsList: 'http://gp.com/manage/api/getGroupsList',
-        usersList: 'http://gp.com/manage/api/getUsersList',
-        modifyUserGroup: 'http://gp.com/manage/api/modifyUserGroup'
+        appsList: '/manage/api/getApps',
+        groupsList: '/manage/api/getGroupsList',
+        usersList: '/manage/api/getUsersList',
+        modifyUserGroup: '/manage/api/modifyUserGroup'
     }
     export default {
         name: 'Manage',
